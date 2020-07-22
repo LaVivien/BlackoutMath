@@ -6,7 +6,17 @@ Write code to programmatically solve a Blackout Math puzzle. In a Blackout Math 
 
 ![Alt text](https://github.com/lavivien-ds-algo/stackBlackoutMath/blob/master/blackout-math.jpg?raw=true "Title")
 
-In your solution, you will need to use stacks to correctly handle operator precedence (e.g., multiplication before addition) and parentheses. 
+In your solution, you will need to use stacks to correctly handle operator precedence (e.g., multiplication before addition) and parentheses. For example, the puzzle given below requires all of these.
+
+![Alt text](https://github.com/lavivien-ds-algo/stackBlackoutMath/blob/master/blackout-math2.jpg?raw=true "Title")
+
+As as first step to solving this problem you will need to write a method (evaluate) that evaluates infix expressions. There are 4 case studies.
+
+        String exampleExpression   = "[(21+9)/4]*(2^3-2)";      //should return 42
+        String MalformedExpression = "5+{7**2";                 //should return null
+
+        String exampleEquation       = "[(137-3)/2]^2=3+2^20+6*7"; //should return the string "[(17-3)/2]^2=3+2^2+6*7"
+        String exampleEquationPuzzle = "168/24+8=11*3-16";         //should return the string "18/2+8=11*3-16"
 
 ## Requirements
 
