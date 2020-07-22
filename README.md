@@ -4,7 +4,7 @@
 
 Write code to programmatically solve a Blackout Math puzzle. In a Blackout Math puzzle, you are given an incorrect equation and have to black out (remove) exactly two characters to create a correct equation. For example, consider the puzzle and solution given below.
 
-![Alt text](https://github.com/lavivien-ds-algo/stackBlackoutMath/blackout-math.jpg?raw=true "Title")
+![Alt text](https://github.com/lavivien-ds-algo/stackBlackoutMath/blob/master/blackout-math.jpg?raw=true "Title")
 
 In your solution, you will need to use stacks to correctly handle operator precedence (e.g., multiplication before addition) and parentheses. 
 
